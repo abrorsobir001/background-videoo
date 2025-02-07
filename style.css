@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    width: 63%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+header .container {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    justify-content: center;
+    padding: 40px 0;
+
+    ul {
+        display: flex;
+        gap: 27px;
+        align-items: center;
+        font-family: Arial;
+        font-size: 11.48px;
+        font-weight: 400;
+        line-height: 19.6px;
+
+    }
+
+}
+
+
+
+.buttons {
+    position: absolute;
+    text-transform: uppercase;
+    right: 50%;
+    top: 65%;
+    left: eror;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.buttons h2 {
+    font-family: Arial;
+    font-size: 17.19px;
+    font-weight: 400;
+    line-height: 38px;
+    color: white;
+    text-align: left;
+}
+
+.buttons h1 {
+    font-family: Arial;
+    font-size: 41.06px;
+    font-weight: 400;
+    line-height: 48px;
+    color: white;
+}
+
+.watch-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    right: 265px;
+}
+
+.watch-btn:hover {
+    color: dodgerblue;
+}
+
+
+
+
+
+.watch-bt {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    right: 265px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 44px;
+        padding: 23px 20px;
+    }
+}
+
+
+
+.test2 {
+    font-family: Arial;
+    font-size: 40.13px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+
+#id {
+    font-size: 13px;
+    position: absolute;
+    right: 280px;
+}
+
+
+#id2 {
+    font-family: Arial;
+    font-size: 12.91px;
+    font-weight: 400;
+}
+
+
+
+#id3 {
+    font-family: Arial;
+    font-size: 12.91px;
+}
+
+
+.button {
+    position: absolute;
+    text-transform: uppercase;
+    right: 50%;
+    top: 65%;
+    left: eror;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+
+    h1 {
+        font-family: Arial;
+        font-size: 41.06px;
+        font-weight: 400;
+        line-height: 48px;
+        color: white;
+    }
+}
+
+
+
+#id0 {
+    font-family: Arial;
+    font-size: 12.91px;
+    font-weight: 400;
+}
+
+
+
+#id7 {
+    font-family: Arial;
+    font-size: 12.91px;
+    font-weight: 400;
+    right: 300px;
+}
